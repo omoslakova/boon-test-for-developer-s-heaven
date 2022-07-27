@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./fonts/SFPro/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-row">
+            <div class="header-logo">
+                <img src='img/Logo.png' alt='Logo'>
+            </div>
+            <div class="header-logo-small">
+                <img src='img/boon%20small1.jpg' alt='Logo1'>
+                <img src='img/boon%20small2.jpg' alt='Logo2'>
+                <img src='img/boon%20small3.jpg' alt='Logo3'>
+                <img src='img/boon%20small4.jpg' alt='Logo4'>
+            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Raise money for..</a></li>
+                    <li><a href="#">Take a tour</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </nav>
+            <div class="header-login">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="background-image" src="img/Login.png">
+                        <img class="overlay" src="img/login%20inner.png">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li>
+                            <div class="username">Username</div>
+                        </li>
+                        <li>
+                            <div class="email">example@mail.com</div>
+                        </li>
+                        <div class="profile">
+                            <li><a href="#">Favourite projects</a></li>
+                            <li><a href="#">Profile settings</a></li>
+                            <li><a href="#">Profile settings</a></li>
+                            <li><a class="logout" href="#">Logout</a></li>
+                            <li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <button type="button" class="mobile-nav-button">
+                <span class="mobile-nav-button__icon"></span>
+            </button>
+        </div>
+        <div class="intro">
+            <div class="search">
+                <form class="search-inline">
+                    <input class="form-control mr-sm-2 search-placeholder" type="text" placeholder="Search for projects"
+                           aria-label="Search for projects">
+                </form>
+            </div>
+            <div>
+                <img class="search-image" src="img/search.png">
+            </div>
+            <div>
+                <button class="btn btn-indigo btn-rounded btn-sm my-0 waves-effect waves-light btn-filters"
+                        style="text-align: left"
+                        type="button">Filters
+                    <img class="filter-img" src="img/filters%20inner.png"/>
+                </button>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" class="menu-popular"
+                           aria-expanded="false">Popular</a>
+                        <div class="dropdown-menu categories-menu">
+                            <div class="categories-header">Categories</div>
+                            <div class="categories-items">
+                                <ul>
+                                    <li href="#" class="dropdown-item">Business</li>
+                                    <li href="#" class="dropdown-item">Creative</li>
+                                    <li href="#" class="dropdown-item">Community</li>
+                                    <li href="#" class="dropdown-item">Competition</li>
+                                    <li href="#" class="dropdown-item">Event</li>
+                                    <li href="#" class="dropdown-item">Faith</li>
+                                    <li href="#" class="dropdown-item">Newlywed</li>
+                                    <li href="#" class="dropdown-item">Sports</li>
+                                    <li href="#" class="dropdown-item">Wishes</li>
+                                    <li href="#" class="dropdown-item">Memorial</li>
+                                    <li href="#" class="dropdown-item">Family</li>
+                                    <li href="#" class="dropdown-item">Travel</li>
+                                    <li href="#" class="dropdown-item">Volunteer</li>
+                                    <li href="#" class="dropdown-item">Education</li>
+                                    <li href="#" class="dropdown-item">Nonprofit</li>
+                                    <li href="#" class="dropdown-item">Animals</li>
+                                    <li href="#" class="dropdown-item">Medical</li>
+                                    <li href="#" class="dropdown-item">Emergency</li>
+                                </ul>
+                            </div>
+                            <div class="button-submit">
+                                <button class="btn btn-indigo btn-rounded btn-sm my-0 waves-effect waves-light btn-submit"
+                                        style="text-align: left"
+                                        type="button">Submit
+                                </button>
+                            </div>
+                    <li><a href="#">Recent</a></li>
+                    <li><a href="#">Most funded</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="img/card1.jpg" class="card-img-top" alt="card1">
+                <div class="card-body">
+                    <h5 class="card-title">PrinCube-The World's Smallest</h5>
+                    <p class="card-text">The project team has begun turning their prototype into the final product.
+                        Their ability to ship the products may be affected by product..</p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon1">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$2,348</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$32,800</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card2.jpg" class="card-img-top" alt="card2">
+                <div class="card-body">
+                    <h5 class="card-title">Help Me To Become A Doctor</h5>
+                    <p class="card-text">I am a student looking for contribution to pay my college fee. I live in Delhi
+                        India.</p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon2">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$23</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$3,500</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">32</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card3.jpg" class="card-img-top" alt="card3">
+                <div class="card-body">
+                    <h5 class="card-title">Testing A New Campaign</h5>
+                    <p class="card-text">At this time due to Coronavirus -COVID-19 - we currently are unable to supply
+                        kits (any kits claimed prior to March 18th will still be fulfilled). </p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon3">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$546</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$640</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">365</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card4.jpg" class="card-img-top" alt="card4">
+                <div class="card-body">
+                    <h5 class="card-title">Real estate</h5>
+                    <p class="card-text">The project team has begun turning their prototype into the final product.
+                        Their ability to ship the products may be affected by product..</p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon4">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$2,348</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$32,800</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card5.jpg" class="card-img-top" alt="card5">
+                <div class="card-body">
+                    <h5 class="card-title">Urban project</h5>
+                    <p class="card-text">I am a student looking for contribution to pay my college fee. I live in Delhi
+                        India.</p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon5">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$23</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$3,500</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">32</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card6.jpg" class="card-img-top" alt="card6">
+                <div class="card-body">
+                    <h5 class="card-title">PrinCube-The World's Smallest</h5>
+                    <p class="card-text">The project team has begun turning their prototype into the final product.
+                        Their ability to ship the products may be affected by product..</p>
+                </div>
+                <div class="features">
+                    <img class="features-icon" src="img/features-icon.jpg" alt="icon6">
+                    <div class="features-inner">
+                        <div class="features-title">Rockers Technology</div>
+                        <div class="features-text">Chicago, IL</div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
+                         style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="statistic">
+                    <div class="statistic__item">
+                        <div class="statistic__name">funded</div>
+                        <div class="statistic__number">$2,348</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">Goal</div>
+                        <div class="statistic__number">$32,800</div>
+                    </div>
+                    <div class="statistic__item">
+                        <div class="statistic__name">days left</div>
+                        <div class="statistic__number">6</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
