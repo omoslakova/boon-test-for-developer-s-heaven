@@ -35,6 +35,9 @@
                     <li><a href="#">Categories</a></li>
                 </ul>
             </nav>
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Menu</span>
+            </button>
             <div class="header-login">
                 <div class="dropdown">
                     <button type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,18 +52,16 @@
                             <div class="email">example@mail.com</div>
                         </li>
                         <div class="profile">
-                            <li><a href="#">Favourite projects</a></li>
-                            <li><a href="#">Profile settings</a></li>
-                            <li><a href="#">Profile settings</a></li>
-                            <li><a class="logout" href="#">Logout</a></li>
-                            <li>
+                            <div class="profile-settings"><a href="#" >Favourite projects</a></div>
+                            <div class="profile-settings"><a href="#" >Profile settings</a></div>
+                            <div class="profile-settings"><a href="#" >Profile settings</a></div>
+                        </div>
+                        <div class="logout">
+                            <li><a href="#">Logout</a></li>
                         </div>
                     </ul>
                 </div>
             </div>
-            <button type="button" class="mobile-nav-button">
-                <span class="mobile-nav-button__icon"></span>
-            </button>
         </div>
         <div class="intro">
             <div class="search">
@@ -88,29 +89,42 @@
                             <div class="categories-header">Categories</div>
                             <div class="categories-items">
                                 <ul>
-                                    <li href="#" class="dropdown-item">Business</li>
-                                    <li href="#" class="dropdown-item">Creative</li>
-                                    <li href="#" class="dropdown-item">Community</li>
-                                    <li href="#" class="dropdown-item">Competition</li>
-                                    <li href="#" class="dropdown-item">Event</li>
-                                    <li href="#" class="dropdown-item">Faith</li>
-                                    <li href="#" class="dropdown-item">Newlywed</li>
-                                    <li href="#" class="dropdown-item">Sports</li>
-                                    <li href="#" class="dropdown-item">Wishes</li>
-                                    <li href="#" class="dropdown-item">Memorial</li>
-                                    <li href="#" class="dropdown-item">Family</li>
-                                    <li href="#" class="dropdown-item">Travel</li>
-                                    <li href="#" class="dropdown-item">Volunteer</li>
-                                    <li href="#" class="dropdown-item">Education</li>
-                                    <li href="#" class="dropdown-item">Nonprofit</li>
-                                    <li href="#" class="dropdown-item">Animals</li>
-                                    <li href="#" class="dropdown-item">Medical</li>
-                                    <li href="#" class="dropdown-item">Emergency</li>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/business.png">
+                                        Business
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/creative.png">
+                                        Creative
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/community.png">
+                                        Community
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/competition.png">
+                                        Competition
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/event.png">
+                                        Event
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/faith.png">
+                                        Faith
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/newlywed.png">
+                                        Newlywed
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <img src="img/sports.png">
+                                        Sports
+                                    </a>
                                 </ul>
                             </div>
                             <div class="button-submit">
                                 <button class="btn btn-indigo btn-rounded btn-sm my-0 waves-effect waves-light btn-submit"
-                                        style="text-align: left"
                                         type="button">Submit
                                 </button>
                             </div>
@@ -136,7 +150,7 @@
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-label="Пример высоты 20пикселей"
-                         style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div class="statistic">
                     <div class="statistic__item">
